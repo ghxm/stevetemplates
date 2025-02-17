@@ -422,13 +422,11 @@ $endif$
 %  \begin{center}%
   \let \footnote \thanks
   $if(sansitup)$
-    {\fontsize{14.5}{20}\selectfont\bfseries\sffamily\raggedright  \setlength{\parindent}{0pt} \@title \par
-    \@date
-    }%
+    {\fontsize{14.5}{20}\selectfont\bfseries\sffamily\raggedright  \setlength{\parindent}{0pt} \@title \par}%
+    {\sffamily\raggedright\@date \par}
     $else$
-    {\fontsize{18}{20}\selectfont\raggedright  \setlength{\parindent}{0pt} \@title \par
-    \@date
-    }
+    {\fontsize{18}{20}\selectfont\raggedright  \setlength{\parindent}{0pt} \@title \par}
+    {\raggedright\@date \par}
   $endif$
 
   
